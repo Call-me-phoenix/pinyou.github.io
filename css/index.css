@@ -1,0 +1,178 @@
+/* main模块 */
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left:220px;
+    margin-top: 10px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+.newsflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+
+}
+.news{
+    width: 250px;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #e4e4e4;
+    padding:0 15px;
+}
+.news-hd h5{
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+}
+.news-hd a{
+    float: right;
+}
+.news-hd a::after{
+    content: "";
+    font-family: icomoon;
+}
+.news-bd{
+    padding: 5px 15px 0;
+}
+.news-bd ul li{
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lifeservice{
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice ul li{
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i{
+    display: inline-block;
+    width:24px;
+    height:28px;
+    margin-top: 12px;
+    background:url(../images/icons.png)  -18px -15px;
+}
+.bargain{
+    width: 250px;
+    height: 75px;
+    margin-top: 6px;
+}
+/* recom模块 */
+.recom{
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom-hd{
+    float: left;
+    width: 205px;
+    height: 163px;
+    text-align: center;
+    padding-top: 38px;
+    background-color: #5c5251;
+}
+.recom-bd ul li{
+    float: left;
+    position: relative;
+}
+.recom-bd ul li:nth-child(-n+3)::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* floor模块 */
+.floor .jiadian{
+    margin-top: 30px;
+}
+.jiadian-hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.jiadian-hd h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+.jiadian .jiadian-hd-list{
+    float: right;
+    line-height: 30px;
+}
+.jiadian .jiadian-hd-list ul li{
+    float: left;
+}
+.jiadian .jiadian-hd-list ul li a{
+    margin: 0 10px;
+}
+.jiadian-bd{
+height: 361px;
+}
+.jiadian-bd-item>div{
+    float: left;
+    height: 361px;
+}
+.col210{
+    width: 210px;
+}
+.col210 ul{
+    padding-left: 12px;
+}
+.col210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col210 .sanxing{
+    float: left;
+    width: 187px;
+    height: 227px;
+    margin-left: 10px;
+    padding: 10px 0;
+}
+.col329{
+    width: 329px;
+}
+
+.col221{
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col219{
+    width: 219px;
+}
+
+.bb{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
