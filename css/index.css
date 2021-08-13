@@ -188,10 +188,17 @@
 }
 .jiadian-bd{
 height: 361px;
+overflow: hidden;
 }
 .jiadian-bd-item>div{
     float: left;
     height: 361px;
+}
+.jiadian-bd-item>div{
+    transition: all .5s;
+}
+.jiadian-bd-item>div:hover{
+    transform: translateY(-5px);
 }
 .col210{
     width: 210px;
