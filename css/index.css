@@ -79,6 +79,62 @@
     height: 75px;
     margin-top: 6px;
 }
+/* like模块 */
+.like{
+    height: 265px;
+    margin-top: 10px;
+}
+.like .like-hd{
+    height: 30px;
+    line-height: 30px;
+}
+.like .like-hd h3{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.like .like-hd a{
+    float:right;
+    font-size: 12px;
+}
+ .like .like-hd a::after{
+    content: "";
+    font-family: icomoon;
+}
+.like .like-bd{
+    border: 1px solid #ccc;
+}
+.like .like-bd ul li div{
+    border-right: 1px solid #ccc;
+}
+.like .like-bd ul li:nth-of-type(6) div{
+    border: none;
+}
+.like .like-bd ul li{
+    position: relative;
+    float: left;
+    width: 199px;
+    height: 230px;
+} 
+.like .like-bd ul li img{
+    display: block;
+    width: 199px;
+    height: 155px;
+}
+.like .like-bd ul li span{
+    display: block;
+    width: 126px;
+    font-size: 12px;
+   margin-left: 35px;
+   margin-top: 5px;
+}
+.like .like-bd ul li a{
+    display: block;
+    width: 80px;
+    font-size: 18px;
+    color: #df3033;
+    margin-left: 35px;
+}
 /* recom模块 */
 .recom{
     height: 163px;
