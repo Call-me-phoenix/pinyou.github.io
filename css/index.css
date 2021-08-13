@@ -198,7 +198,7 @@ overflow: hidden;
     transition: all .5s;
 }
 .jiadian-bd-item>div:hover{
-    transform: translateY(-5px);
+    transform: scale(1.05,1.05);
 }
 .col210{
     width: 210px;
